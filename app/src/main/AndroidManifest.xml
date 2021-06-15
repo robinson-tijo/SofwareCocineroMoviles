@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.softwarecocinero">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="SoftwareCocinero"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        
+        <activity android:name=".views.cashier.profile.CashierProfileActivity" />
+        <activity android:name=".views.cashier.settings.CashierSettingsActivity" />
+        <activity android:name=".views.cashier.payment.CashierPaymentActivity" />
+        <activity android:name=".views.CashierMenuActivity" />
+        <activity android:name=".views.waiter.charge.WaiterChargeActivity" />
+        <activity android:name=".views.waiter.profile.WaiterProfileActivity" />
+        <activity android:name=".views.waiter.settings.WaiterSettingsActivity" />
+        <activity android:name=".views.waiter.order.WaiterOrderActivity" />
+        <activity android:name=".views.WaiterMenuActivity" />
+        <activity android:name=".views.administrator.product.AdministratorProductActivity" />
+        <activity android:name=".views.administrator.user.AdministratorUserActivity" />
+        <activity android:name=".views.administrator.category.AdministratorCategoryActivity" />
+        <activity android:name=".views.administrator.area.AdministratorAreaActivity" />
+        <activity android:name=".views.administrator.profile.AdministratorProfileActivity" />
+        <activity android:name=".views.administrator.table.AdministratorTableActivity" />
+        <activity android:name=".views.administrator.settings.AdministratorSettingsActivity" />
+        <activity android:name=".views.AdministratorMenuActivity" />
+        <activity android:name=".views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

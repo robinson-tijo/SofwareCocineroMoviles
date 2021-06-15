@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">Cocinero</string>
+    <string name="send">Ingresar</string>
+    <string name="rigths">copyright © 2021 Continuos Advance</string>
+    <string name="license">Licencia Tres Amores</string>
+    <string name="acept">Aceptar</string>
+    <string name="update">Actualizar</string>
+    <!-- Menu general -->
+    <string name="menu">Menú</string>
+    <string name="logoutMenu">Cerrar sesión</string>
+    <string name="descriptionLogout">Cierre su sesión siempre que lo requiera.</string>
+    <string name="profileMenu">Perfil</string>
+    <string name="descriptionProfile">Edite la información personal de su cuenta.</string>
+    <!-- Menu administrator -->
+    <string name="userAdministratorMenu">Usuarios</string>
+    <string name="descriptionAdministratorUser">Registra a tus empleados para que formen parte de tu restaurante.</string>
+    <string name="tableAdministratorMenu">Mesas</string>
+    <string name="descriptionAdministratorTable">Enumere todas sus mesas para comenzar a tomar las ordenes.</string>
+    <string name="areaAdministratorMenu">Áreas</string>
+    <string name="descriptionAdministratorArea">Registre las diferentes áreas que componen tu restaurante.</string>
+    <string name="statisticsAdministratorMenu">Estadísticas</string>
+    <string name="descriptionAdministratorStatistics">Revisa un reporte detallado de las ventas.</string>
+    <string name="productAdministratorMenu">Productos</string>
+    <string name="descriptionAdministratorProduct">Alimenta el menú con tus deliciosos platillos.</string>
+    <string name="settingAdministratorMenu">Ajustes</string>
+    <string name="descriptionAdministratorSetting">Configure todos los parámetros para su restaurante.</string>
+    <string name="orderAdministratorMenu">Ordenes</string>
+    <string name="descriptionAdministratorOrder">Haga un seguimiento a todas las ordenes de su restaurante.</string>
+    <string name="categoryAdministratorMenu">Categorías</string>
+    <!-- Menu waiter -->
+    <string name="orderWaiterMenu">Ordenes</string>
+    <string name="descriptionWaiterOrder">Tome los pedidos en las diferentes mesas.</string>
+    <string name="settingWaiterMenu">Ajustes</string>
+    <string name="descriptionWaiterSetting">Configure todos los parámetros de su cuenta.</string>
+    <!-- Menu Chef -->
+    <string name="orderChefMenu">Ordenes</string>
+    <string name="descriptionChefOrder">Revise los pedidos de su área de trabajo.</string>
+    <string name="settingChefMenu">Ajustes</string>
+    <string name="descriptionChefSetting">Configure todos los parámetros de su cuenta.</string>
+    <!-- Menu Cashier -->
+    <string name="paymentCashierMenu">Pagos</string>
+    <string name="descriptionCashierPayment">Realice los pagos asociados a las mesas.</string>
+    <string name="settingCashierMenu">Ajustes</string>
+    <string name="descriptionCashierSetting">Configure todos los parámetros de su cuenta.</string>
+    <!-- Table -->
+    <string name="fieldTableNumber">Número de mesa.</string>
+    <string name="fieldTableSeats">Número max de sillas.</string>
+    <string name="fieldTableDescription">Descripción ( opcional ).</string>
+    <!-- Area -->
+    <string name="fieldAreaName">Nombre del área.</string>
+    <!-- Category -->
+    <string name="fieldCaregoryName">Nombre de la categoría.</string>
+    <!-- Product -->
+    <string name="fieldProductName">Nombre del producto.</string>
+    <string name="fieldProductPrice">Precio del producto.</string>
+    <string name="fieldProductTimePreparation">Tiempo de prepa.. ( min ).</string>
+    <!-- User -->
+    <string name="fieldUserName">Nombre de usuario.</string>
+    <string name="fieldUserId">Cédula.</string>
+    <string name="fieldUserPassword">Nueva clave.</string>
+    <!-- Charge -->
+    <string name="fieldChargeDescription">Sin información.</string>
+    <string name="fieldChargeAmount">Cantidad.</string>
+    <!-- Payment -->
+    <string name="fieldPaymentPrice">Precio.</string>
+    <string name="fieldPaymentCash">Dinero.</string>
+
+</resources>

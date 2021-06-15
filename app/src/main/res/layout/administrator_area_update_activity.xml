@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/colorBasic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtUpdateAreaName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:maxLength="40"
+                android:fontFamily="@font/open_sans"
+                android:hint="@string/fieldAreaName"
+                android:inputType="text"
+                android:textColor="@color/colorWhite"
+                android:theme="@style/TextField"
+                android:textColorHint="@color/colorHint"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/btnUpdateArea"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/update"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="25dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

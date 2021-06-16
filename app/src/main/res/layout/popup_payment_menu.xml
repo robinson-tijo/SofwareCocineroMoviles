@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="7dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="92dp"
+    card_view:cardBackgroundColor="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:background="@drawable/products" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"
+                android:text="Productos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnDeletes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:background="@drawable/service" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"
+                android:text="Servicios" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

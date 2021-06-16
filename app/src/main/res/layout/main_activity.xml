@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBasic"
+    android:orientation="vertical"
+    tools:context=".views.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/icon"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software"
+            android:fontFamily="@font/tahu"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:textSize="70sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/tahu"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="70sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/license"
+            android:fontFamily="@font/open_sans"
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="40dp">
+
+        <EditText
+            android:id="@+id/txtUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:maxLength="15"
+            android:hint="Cédula"
+            android:inputType="number"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:textSize="17dp"
+            android:theme="@style/TextField" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="40dp">
+
+        <EditText
+            android:id="@+id/txtUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:maxLength="20"
+            android:hint="Clave"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:textSize="17dp"
+            android:theme="@style/TextField" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ripple_login_button"
+            android:clickable="true"
+            android:fontFamily="@font/poppins"
+            android:text="@string/send"
+            android:textSize="17dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rigths"
+            android:fontFamily="@font/open_sans"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorRights"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
